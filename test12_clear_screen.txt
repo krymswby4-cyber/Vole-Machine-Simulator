@@ -1,0 +1,4 @@
+; Program 12: Clear screen
+2000 ; R0 = 00
+30FF ; Memory[FF] = 00
+C000 ; Halt

@@ -1,0 +1,5 @@
+; Program 05: Rotate right 4 bits
+2081 ; R0 = 81 (10000001)
+A004 ; Rotate R0 right 4 bits (10000001 -> 00011000 = 18)
+30FF ; Print R0
+C000 ; Halt

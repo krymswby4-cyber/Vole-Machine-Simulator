@@ -1,0 +1,7 @@
+; Program 16: JUMP when not equal
+2000 ; R0 = 00
+2105 ; R1 = 05
+B10A ; Jump to 0A if R1 == R0
+2277 ; R2 = 77
+32FF ; Print R2
+C000 ; Halt

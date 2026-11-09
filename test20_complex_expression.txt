@@ -1,0 +1,8 @@
+; Program 20: Compute (A OR B) AND C
+20F0 ; R0 = F0
+210F ; R1 = 0F
+2233 ; R2 = 33
+7301 ; R3 = R0 OR R1 (FF)
+8432 ; R4 = R3 AND R2 (33)
+34FF ; Print R4
+C000 ; Halt

@@ -1,0 +1,6 @@
+; Program 01: Load 5 and 7, add them, store to screen (FF)
+2005 ; R0 = 05
+2107 ; R1 = 07
+5201 ; R2 = R0 + R1 (0C)
+32FF ; Memory[FF] = R2 (Print 0C)
+C000 ; Halt

@@ -1,0 +1,9 @@
+; Program 10: Count down loop (3 to 0)
+2000 ; R0 = 00
+2103 ; R1 = 03
+22FF ; R2 = FF (-1)
+5112 ; R1 = R1 + R2
+B10E ; Jump to 0E if R1 == R0
+B006 ; Jump to 06
+31FF ; Print R1
+C000 ; Halt

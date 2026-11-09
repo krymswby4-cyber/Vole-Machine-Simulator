@@ -1,0 +1,6 @@
+; Program 09: Floating point addition (Opcode 6)
+2140 ; R1 = 40 (1.0 in Vole 8-bit float)
+2244 ; R2 = 44 (1.5 in Vole float)
+6312 ; R3 = R1 + R2 (2.5 -> 4A)
+33FF ; Print R3
+C000 ; Halt

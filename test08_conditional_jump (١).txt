@@ -1,0 +1,9 @@
+; Program 08: Conditional Jump when equal
+2010 ; R0 = 10
+2110 ; R1 = 10
+B10A ; Jump to 0A if R1 == R0
+2201 ; R2 = 01 (Skipped if jumped)
+C000 ; Halt at 08
+2299 ; Address 0A: R2 = 99
+32FF ; Print R2
+C000 ; Halt
