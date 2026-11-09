@@ -1,0 +1,5 @@
+; Program 15: Rotate right 0 times
+2055 ; R0 = 55
+A000 ; Rotate R0 right 0 times
+30FF ; Print R0 (55)
+C000 ; Halt

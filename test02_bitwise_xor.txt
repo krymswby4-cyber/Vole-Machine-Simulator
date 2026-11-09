@@ -1,0 +1,6 @@
+; Program 02: Bitwise XOR operation
+20A5 ; R0 = A5
+215A ; R1 = 5A
+9201 ; R2 = R0 XOR R1 (FF)
+32FF ; Print to screen
+C000 ; Halt

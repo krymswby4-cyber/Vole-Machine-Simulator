@@ -1,0 +1,6 @@
+; Program 07: Load from memory cell and store back
+2034 ; R0 = 34
+3050 ; Memory[50] = 34
+1150 ; R1 = Memory[50]
+31FF ; Print R1
+C000 ; Halt

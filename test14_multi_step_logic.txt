@@ -1,0 +1,6 @@
+; Program 14: Mask lower nibble
+20F7 ; R0 = F7
+210F ; R1 = 0F
+8201 ; R2 = R0 AND R1 (07)
+32FF ; Print R2
+C000 ; Halt

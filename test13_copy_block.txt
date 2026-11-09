@@ -1,0 +1,8 @@
+; Program 13: Copy memory value across locations
+20AA ; R0 = AA
+3020 ; Memory[20] = AA
+1120 ; R1 = Memory[20]
+3130 ; Memory[30] = R1
+1230 ; R2 = Memory[30]
+32FF ; Print R2
+C000 ; Halt

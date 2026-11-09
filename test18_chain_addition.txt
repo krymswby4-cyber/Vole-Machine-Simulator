@@ -1,0 +1,8 @@
+; Program 18: Add three numbers (1 + 2 + 3 = 6)
+2001 ; R0 = 1
+2102 ; R1 = 2
+2203 ; R2 = 3
+5301 ; R3 = R0 + R1 (3)
+5432 ; R4 = R3 + R2 (6)
+34FF ; Print R4
+C000 ; Halt

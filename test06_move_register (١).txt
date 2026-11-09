@@ -1,0 +1,5 @@
+; Program 06: Move register content (Opcode 4)
+2142 ; R1 = 42
+4012 ; Move R1 to R2
+32FF ; Print R2 (42)
+C000 ; Halt

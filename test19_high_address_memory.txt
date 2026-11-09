@@ -1,0 +1,6 @@
+; Program 19: Store and load at address E0
+2099 ; R0 = 99
+30E0 ; Memory[E0] = 99
+11E0 ; R1 = Memory[E0]
+31FF ; Print R1
+C000 ; Halt

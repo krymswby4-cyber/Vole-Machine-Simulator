@@ -1,0 +1,9 @@
+; Program 17: Swap two registers using XOR
+2012 ; R0 = 12
+2134 ; R1 = 34
+9001 ; R0 = R0 XOR R1
+9101 ; R1 = R1 XOR R0
+9001 ; R0 = R0 XOR R1
+30FF ; Print R0 (34)
+31FF ; Print R1 (12)
+C000 ; Halt
